@@ -12,7 +12,6 @@ print(timeit.timeit(stmt="[0, 1, 2, 3, 4, 5]", number=1000000))
 print(timeit.timeit(stmt="(0, 1, 2, 3, 4, 5)", number=1000000))
 
 
-
 myTuple = ("Max", 28, "Boston")
 print(myTuple)
 anotherTuple = tuple(["1", 22, 'Paul'])
@@ -57,4 +56,3 @@ i1, *i2,  i3 = anotherTuple
 print(i1)
 print(i2)
 print(i3)
-

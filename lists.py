@@ -32,5 +32,18 @@ sortedList = sorted(myList4)
 print(myList4)
 print(sortedList)
 
-myList5 = ["paul"] * 3, 1, 2, 4
+myList5 = [45] * 3
 print(myList5)
+myList6 = myList5 + [1, 233]
+print(myList6)
+myListToSplit = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+splitList = myListToSplit[3:6]
+print(splitList)
+list7 = [1, 2, 3, 4, 5, 6, 7, 8]
+myCopy = list7[:3].copy()
+print(list7)
+print(myCopy)
+
+my2BSquared = [2, 4, 8, 16, 256, 65536]
+sqList = [i*i for i in my2BSquared]
+print(sqList)

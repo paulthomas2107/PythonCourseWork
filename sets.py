@@ -94,7 +94,9 @@ setD = setA.copy() # no mods to setA
 setD = {1,2}
 print(setA)
 print(setD)
-
+# Frozen immutable
+frozeSet = frozenset({1, 2, 3, 5, 6, 7})
+print(frozeSet)
 
 
 
