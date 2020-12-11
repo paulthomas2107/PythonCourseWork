@@ -26,3 +26,4 @@ for _ in range(6):
     logger.info('Hello Paul.....and world.')
     time.sleep(6)
 
+print('=' * 50)
